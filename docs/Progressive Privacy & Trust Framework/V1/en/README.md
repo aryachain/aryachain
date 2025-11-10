@@ -16,82 +16,83 @@ Most blockchains exist at one of two extremes:
 - Complete opacity (like Monero or Zcash).
 
 AryaChain takes a middle path — one that embraces human choice.  
-Instead of forcing everyone to live in full light or full shadow, users decide how private each account should be.  
-We call this idea **Progressive Privacy** — a model where privacy grows with your trust and participation, not with your isolation.
+Instead of forcing users into total light or total darkness, every account defines its own privacy level.  
+We call this **Progressive Privacy** —  
+a model where confidentiality grows with your **Trust** and **positive participation**, not with secrecy alone.
 
-This approach builds a bridge between:
+This approach connects:  
 - individual privacy,  
-- collective security,  
-- and social accountability.
+- collective security, and  
+- social accountability.
 
 ---
 
-## 2. The Three Layers of Privacy
+## 2. The Three Privacy Levels
 
-| Level | Hidden Elements | Visible Elements | Purpose |
-|:------|:----------------|:----------------|:---------|
-| **Level 0 — Transparent** | Nothing | Everything | Fully open and auditable, similar to Bitcoin. |
-| **Level 1 — Confidential** | Transaction amount | Sender and receiver addresses | Semi-private: hides value but keeps traceability. |
+| Level | Hidden Elements | Visible Elements | Description |
+|:------|:----------------|:----------------|:-------------|
+| **Level 0 — Transparent** | Nothing | Everything | Fully open and auditable, like Bitcoin. |
+| **Level 1 — Confidential** | Transaction amount | Sender & receiver addresses | Semi-private: hides value but keeps traceability. |
 | **Level 2 — Deep Private** | Amount and addresses | Encrypted or stealth | Maximum confidentiality for users or institutions requiring full privacy. |
 
-Each account defines its privacy level at creation.  
-And **each transaction inherits the level of its sender** — never higher, never lower.
-
-This simple rule keeps privacy voluntary, logical, and consistent.
+Each account defines its privacy level upon creation.  
+**Every transaction inherits the privacy level of its sender** — never higher, never lower.  
+This keeps the model voluntary, logical, and consistent.
 
 ---
 
 ## 3. Trust Points — The Currency of Integrity
 
-Instead of giving power to wealth or hardware, AryaChain rewards **constructive behavior**.  
-Each node earns a **Trust Point (TP)** score based on its history and contribution to the network.
+AryaChain replaces power by wealth or hardware with power by trust.  
+Each node earns a **Trust Point (TP)** score that evolves with its behavior and contribution.
 
-- Nodes with **low TP** can validate blocks and observe public data, but they cannot access confidential state or verify encrypted data.  
-- Nodes with **high TP** can decrypt metadata (as allowed by policy), verify confidential proofs, and update private account states.  
-- Voting power and governance weight scale with TP.
+- **Low-TP nodes** can validate blocks and view public data,  
+  but cannot read confidential states or verify encrypted metadata.  
+- **High-TP nodes** can decrypt, verify, and update private states;  
+  their votes in consensus weigh more.
 
-This model transforms trust into a measurable resource — something you earn through positive participation, not privilege.
+This system turns trust into a measurable, earned value —  
+rewarding constructive participation, not privilege.
 
 ---
 
 ## 4. Honest Privacy
 
-AryaChain acknowledges a truth many systems ignore:  
-**Level 1 confidentiality isn’t perfect privacy.**
+AryaChain acknowledges an important truth:  
+**Level 1 confidentiality is not perfect privacy.**
 
-When a semi-private (Level 1) account sends to a transparent one, the amount is hidden on-chain —  
-but anyone can still estimate the value by comparing the recipient’s balance before and after the transaction.
+When a semi-private (Level 1) account sends to a transparent one,  
+the amount is encrypted,  
+but any observer can estimate the real value by comparing balances before and after.
 
-That’s not a flaw — it’s a trade-off.
-
-Level 1 privacy is designed to prevent casual observers and blockchain explorers from seeing your value,  
-not to defeat forensic analysis.
-
-AryaChain calls this **Honest Privacy**: clear about what it protects, and what it doesn’t.
+This isn’t a flaw — it’s a trade-off.  
+Level 1 protects against casual explorers, not forensic analysts.  
+AryaChain calls this **Honest Privacy**: clear about what it protects and what it doesn’t.
 
 ---
 
 ## 5. Balancing Privacy, Trust, and Law
 
-True decentralization requires responsibility, not invisibility.  
+True decentralization needs responsibility.  
 AryaChain introduces a **Disclosure Policy** for confidential transactions —  
-a rule that defines *when*, *how*, and *by whom* specific data can be revealed.
+defining *when*, *how*, and *by whom* specific data may be revealed.
 
-Combined with the **Emergency Disclosure Key (EDK)** system, this allows controlled, lawful access in extreme cases —  
-without centralized authority or unrestricted exposure.
+Together with the **Emergency Disclosure Key (EDK)**,  
+this allows lawful, multi-party access in exceptional cases —  
+without central authority or unrestricted exposure.
 
-Privacy remains the default.  
-Disclosure becomes the exception — traceable, multi-party, and transparent.
+Privacy remains the rule.  
+Disclosure becomes the exception — traceable, limited, and governed by consensus.
 
 ---
 
 ## 6. AI Oversight Without Surveillance
 
-AryaChain’s AI doesn’t read your data — it reads behavior.  
-It studies timing, repetition, and interaction patterns across the network to identify suspicious activity.
+AryaChain’s AI never reads your data — it reads behavior.  
+It analyzes timing, repetition, and interaction patterns across the network to detect anomalies.
 
-When something looks unusual, the AI raises a flag for human governance to review.  
-It cannot decrypt, modify, or act on user data by itself.
+When suspicious activity is found, the AI raises a flag for governance to review.  
+It cannot decrypt, modify, or act by itself.
 
 The AI is not a judge — it’s a guardian ensuring that privacy serves fairness, not exploitation.
 
@@ -99,41 +100,40 @@ The AI is not a judge — it’s a guardian ensuring that privacy serves fairnes
 
 ## 7. What AryaChain Promises — and What It Doesn’t
 
-AryaChain will **never** promise absolute anonymity.  
-Instead, it offers **configurable confidentiality** with clear, documented limits:
+AryaChain does not promise anonymity.  
+It provides **configurable confidentiality** with well-defined boundaries:
 
 | Level | Nature | Realistic Expectation |
-|:------|:--------|:---------------------|
-| **0 — Transparent** | Fully public | Anyone can audit every detail. |
+|:------|:--------|:----------------------|
+| **0 — Transparent** | Fully public | All data visible and auditable. |
 | **1 — Confidential** | Semi-private | Amounts hidden, but inference possible. |
-| **2 — Deep Private** | Strong privacy | Requires governance or legal triggers for access. |
+| **2 — Deep Private** | Strong privacy | Requires legal or multi-party access for disclosure. |
 
 Honesty builds trust.  
-AryaChain’s commitment is to clarity, not illusion.
+AryaChain commits to clarity — not illusion.
 
 ---
 
 ## 8. The Philosophy of Choice
 
-Privacy in AryaChain is not a privilege — it’s a right shaped by participation.  
-The network believes that real freedom lies in **the power to choose**:  
-how visible, how private, and how accountable you want to be.
+Privacy in AryaChain is not a privilege — it’s a **right to choose**.  
+Freedom means deciding how visible, private, and accountable you want to be.
 
-Users who contribute positively earn trust; those who abuse it lose access.  
-This balance of **choice, consequence, and cooperation** forms the ethical core of AryaChain.
+Positive participation earns trust; abuse reduces it.  
+This balance between **choice, consequence, and cooperation** is the ethical core of AryaChain.
 
 ---
 
 ## 9. Conclusion
 
-AryaChain’s *Progressive Privacy Framework* unites three essential forces:
+AryaChain’s *Progressive Privacy Framework* bridges three worlds:
 
-- **Transparency** — for trust and legitimacy,  
-- **Confidentiality** — for personal and business protection,  
-- **Accountability** — for ethical and lawful balance.
+- **Transparency** — for trust and legitimacy  
+- **Confidentiality** — for protection and dignity  
+- **Accountability** — for fairness and sustainability  
 
-It’s not a place to hide.  
-It’s a system built to empower — where privacy, trust, and freedom coexist by design.
+AryaChain isn’t built to hide.  
+It’s built to empower — where privacy, trust, and freedom coexist by design.
 
 ---
 
